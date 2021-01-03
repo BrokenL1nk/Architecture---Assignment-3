@@ -34,10 +34,11 @@
 (_Κατά την εξέτασή μας την ώρα του 3ου εργαστηρίου, μας προτάθηκε να συγκρίνουμε μόνο 1-2 αλλαγές παραμέτρων σε κάθε benchmark. Ωστόσο θεωρήσαμε πως η ολοκληρωμένη απεικόνιση όλων των τεστ που κάναμε στο 2ο εργαστηρίου θα έδινε πιο πλήρη εικόνα για την συμπεριφορά του peak power._)
 
 **2.** Ένας βασικός λόγος που στα αποτελέσματα των εξομοιώσεων μπορεί να εμφανίζονται αποκλίσεις από τα πραγματικά συστήματα είναι το γεγονός ότι το McPAT δεν μοντελοποιεί με ακρίβεια ορισμένα στοιχεία, όπως SOC logic και I/O, καθώς οι αρχιτεκτονικές τους δεν είναι γνωστές. Επιπλέον, με το McPAT έχουμε high-level μοντέλα, ενώ στο επίπεδο του hardware έχουμε low-level, με αποτελέσμα να χρειαζόμαστε επιπλέον στοιχεία για να έχουμε πλήρη εικόνα του συστήματος, κάτι στο οποίο μπορεί να βοηθήσει ένας εξομοιωτής όπως ο gem5.
+Υπάρχει, τέλος, και η έννοια του _silicon lottery_, που περιγράφει τις κατασκευαστικές διαφορές που δυνητικά υπάρχουν από σύστημα σε σύστημα, κάτι που συντελεί στην απόκλιση τιμών στα αποτελέσματα.
 
 ### ΠΗΓΕΣ
 
-1. [Sultan, Hameedah, Gayathri Ananthanarayanan, and Smruti R. Sarangi. "Processor power estimation techniques: a survey." International Journal of High Performance Systems Architecture 5.2 (2014): 93-114.](Processor Power Estimation Techniques: A Survey)
-2. 
-
-Υπάρχει, τέλος, και η έννοια του _silicon lottery_, που περιγράφει τις κατασκευαστικές διαφορές που δυνητικά υπάρχουν από σύστημα σε σύστημα, κάτι που συντελεί στην απόκλιση τιμών στα αποτελέσματα.
+1. Li, Sheng, et al. "McPAT: an integrated power, area, and timing modeling framework for multicore and manycore architectures." Proceedings of the 42nd Annual IEEE/ACM International Symposium on Microarchitecture. 2009
+2. Sultan, Hameedah, Gayathri Ananthanarayanan, and Smruti R. Sarangi. "Processor power estimation techniques: a survey." International Journal of High Performance Systems Architecture 5.2 (2014): 93-114
+3. Triviño Valls, Josep. Power models for multicore processor simulators with multiple levels of abstraction. BS thesis. Universitat Politècnica de Catalunya, 2015
+4. [https://en.wikipedia.org/wiki/System_on_a_chip](https://en.wikipedia.org/wiki/System_on_a_chip)
