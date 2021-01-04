@@ -42,3 +42,12 @@
 2. Sultan, Hameedah, Gayathri Ananthanarayanan, and Smruti R. Sarangi. "Processor power estimation techniques: a survey." International Journal of High Performance Systems Architecture 5.2 (2014): 93-114
 3. Triviño Valls, Josep. Power models for multicore processor simulators with multiple levels of abstraction. BS thesis. Universitat Politècnica de Catalunya, 2015
 4. [https://en.wikipedia.org/wiki/System_on_a_chip](https://en.wikipedia.org/wiki/System_on_a_chip)
+
+***
+
+### ΚΡΙΤΙΚΗ
+
+Το 3ο εργαστήριο ήταν το πιο ομαλό όσον αφορά την διεκπαιρέωση. Η εισαγωγή μας στο McPAT ήταν πληρέστατη με την ανάγνωση του documentation, κι η επιπλέον εμβάθυνση στηριζόμενοι πάνω στα αποτελέσματα του προηγούμενου εργαστηρίου ήταν πολύ ενδιαφέρουσα. Μας άρεσε, επίσης, το πλήθος των θεωρητικών ερωτήσεων που τέθηκαν, κάτι που ήρθε σε αντίθεση με τα προηγούμενα περισσότερο διαδικαστικά εργαστήρια.
+Ένα θέμα που αντιμετωπίσαμε ήταν η αδυναμία του compile του McPAT στην τελευταία έκδοση Ubuntu (20.04), οπότε και έπρεπε να πάρουμε έναν pre-compiled φάκελο. 
+
+Σε γενικές γραμμές, λοιπόν, τα 3 αυτά εργαστήρια μας προσέφεραν μία πολύ καλή εξοικείωση με τον κόσμο των μικροεπεξεργαστών και την ευκαιρία να βάλουμε «κάτω από το μικροσκόπιο» την λειτουργία τους και τους μηχανισμούς τους. 
